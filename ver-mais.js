@@ -51,7 +51,7 @@ document.getElementById("compartilhar").addEventListener("click", function() {
     if (navigator.share) {
         navigator.share({
             title: document.title,
-            text: "Confira esta página incrível!",
+            text: "Confira este carro incrível!",
             url: window.location.href
         })
         .then(() => console.log("Compartilhamento bem-sucedido"))
