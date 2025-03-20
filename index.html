@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/navbar.css">
+    <script src="script.js"></script>
+    <script src="toggle-btn.js"></script>
+    <title>MMotors Veículos</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo"><a href="index.html"><img src="assets/logo.png" width="176"></a></div>
+        <div class="toggle-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#cars-container">Carros</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Encontre o carro dos seus sonhos</h1>
+        <p>Oferecemos uma ampla seleção de veículos de qualidade, com preços competitivos e condições especiais de financiamento. Estamos comprometidos em ajudá-lo a encontrar o carro perfeito para suas necessidades.</p>
+        
+        <div class="hero-btn">
+            <a href="#cars-container" class="btn">Ver Ofertas</a>
+            <a href="contato.html" class="btn">Contato</a>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products-section">
+        <h2>Nossos Veículos</h2>
+        <div class="products-container">
+            <!-- Filtros -->
+            <div class="filters">
+                <h3>Filtros</h3>
+                <div class="filter-group">
+                    <label for="marca">Marca</label>
+                    <select id="marca">
+                        <option value="">Todas</option>
+                        <option value="Toyota">Toyota</option>
+                        <option value="Honda">Honda</option>
+                        <option value="Volkswagen">Volkswagen</option>
+                        <option value="BMW">BMW</option>
+                        <option value="Mercedes">Mercedes</option>
+                        <option value="Ford">Ford</option>
+                        <option value="Chevrolet">Chevrolet</option>
+                    </select>
+                </div>
+
+                <div class="filter-group">
+                    <label for="modelo">Modelo</label>
+                    <select id="modelo">
+                        <option value="">Todos</option>
+                    </select>
+                </div>
+
+                <div class="filter-group">
+                    <label for="ano-min">Ano</label>
+                    <select id="ano-min">
+                        <option value="">Mínimo</option>
+                        <option value="2015">2015</option>
+                        <option value="2016">2016</option>
+                        <option value="2017">2017</option>
+                        <option value="2018">2018</option>
+                        <option value="2019">2019</option>
+                        <option value="2020">2020</option>
+                        <option value="2021">2021</option>
+                        <option value="2022">2022</option>
+                        <option value="2023">2023</option>
+                        <option value="2024">2024</option>
+                    </select>
+                    <select id="ano-max">
+                        <option value="">Máximo</option>
+                        <option value="2015">2015</option>
+                        <option value="2016">2016</option>
+                        <option value="2017">2017</option>
+                        <option value="2018">2018</option>
+                        <option value="2019">2019</option>
+                        <option value="2020">2020</option>
+                        <option value="2021">2021</option>
+                        <option value="2022">2022</option>
+                        <option value="2023">2023</option>
+                        <option value="2024">2024</option>
+                    </select>
+                </div>
+
+                <div class="filter-group">
+                    <label for="preco">Preço</label>
+                    <div class="price-inputs">
+                        <input type="number" id="preco-min" placeholder="Mínimo">
+                        <input type="number" id="preco-max" placeholder="Máximo">
+                    </div>
+                </div>
+
+                <div class="filter-group">
+                    <label for="condicao">Condição</label>
+                    <select id="condicao">
+                        <option value="">Todas</option>
+                        <option value="novo">Novo</option>
+                        <option value="seminovo">Seminovo</option>
+                        <option value="usado">Usado</option>
+                    </select>
+                </div>
+
+                <button class="filter-btn" id="aplicar-filtros">Aplicar Filtros</button>
+            </div>
+
+            <!-- Carros Grid -->
+            <div class="cars-grid" id="cars-container">
+                <!-- Carros serão inseridos aqui via JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-col">
+                <h3><span>MMotors Veículos</span></h3>
+                <p>Sua concessionária de confiança há anos, oferecendo os melhores carros e condições do mercado. Venha nos conhecer e saia de carro novo!</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/people/MMotors-Ve%C3%ADculos/61556223940893/" class="social-icon"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <a href="https://www.instagram.com/mmotors.veiculos/" class="social-icon"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    <a href="#" class="social-icon"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h3>Links Rápidos</h3>
+                <ul class="footer-links">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="index.html#cars-container">Carros</a></li>
+                    <li><a href="#">Sobre Nós</a></li>
+                    <li><a href="#">Financiamento</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Contato</h3>
+                <p>Av. da Amizade, 1683<br>Vila Carlota, Sumaré - SP<br>CEP: 13175-490</p>
+                <p>(19) 99434-8998<br>Email: mmotors.veiculos@outlook.com</p>
+            </div>
+            <div class="footer-col">
+                <h3>Horário de Funcionamento</h3>
+                <p>Segunda - Sexta: 08:00 - 18:30<br>Sábado: 08:00 - 14:00<br>Domingo: fechado</p>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 M Motors Veículos. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
