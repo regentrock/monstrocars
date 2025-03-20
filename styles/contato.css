@@ -37,12 +37,12 @@ body {
 }
 
 .breadcrumb-links a:hover {
-    color: #e74c3c;
+    color: #803407;
     text-decoration: underline;
 }
 
 .breadcrumb-links li:last-child a {
-    color: #e74c3c;
+    color: #803407;
     font-weight: 500;
 }
 
@@ -70,7 +70,7 @@ body {
     color: #333;
     margin-bottom: 1.5rem;
     padding-bottom: 0.5rem;
-    border-bottom: 2px solid #e74c3c;
+    border-bottom: 2px solid #803407;
 }
 
 .contato-info p {
@@ -89,7 +89,7 @@ body {
 .info-icon {
     width: 40px;
     height: 40px;
-    background-color: #e74c3c;
+    background-color: #803407;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -231,7 +231,7 @@ body {
 }
 
 .checkbox-group a {
-    color: #e74c3c;
+    color: #803407;
     text-decoration: none;
 }
 
@@ -243,7 +243,7 @@ body {
     display: block;
     width: 100%;
     padding: 1rem;
-    background-color: #e74c3c;
+    background-color: #803407;
     color: #fff;
     border: none;
     border-radius: 4px;
@@ -253,7 +253,7 @@ body {
 }
 
 .btn-enviar:hover {
-    background-color: #c0392b;
+    background-color: #9c4b1b;
 }
 
 /* Mapa Section */
@@ -335,7 +335,7 @@ footer {
     left: 0;
     width: 50px;
     height: 2px;
-    background-color: #e74c3c;
+    background-color: #803407;
 }
 
 .footer-col p {
@@ -359,7 +359,7 @@ footer {
 }
 
 .footer-links a:hover {
-    color: #e74c3c;
+    color: #803407;
 }
 
 .copyright {
