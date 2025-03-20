@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Toyota Corolla XEi - MMotors Veículos</title>
+    <link rel="stylesheet" href="../styles/ver-detalhes.css">
+    <link rel="stylesheet" href="../styles/navbar.css">
+    <script src="../toggle-btn.js"></script>
+    
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo"><a href="../index.html"><img src="../assets/logo.png" width="176"></a></div>
+        <div class="toggle-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="#cars-container">Carros</a></li>
+            <li><a href="../contato.html">Contato</a></li>
+        </ul>
+    </nav>
+
+    <!-- Breadcrumb -->
+    <div class="breadcrumb" style="padding-top: 5.5rem;">
+        <ul class="breadcrumb-links">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../index.html#cars-container">Carros</a></li>
+            <li><a href="#">Toyota Corolla XEi</a></li>
+        </ul>
+    </div>
+
+    <!-- Car Detail Container -->
+    <div class="car-detail-container">
+        <!-- Car Gallery -->
+        <div class="car-gallery">
+            <div class="main-image" id="main-image" style="background-image: url('../assets/toyota-corolla-xei/3.png')"></div>
+            <div class="thumbnail-container">
+                <div class="thumbnail active" style="background-image: url('../assets/toyota-corolla-xei/1.png')" data-src="/api/placeholder/800/400"></div>
+                <div class="thumbnail" style="background-image: url('../assets/toyota-corolla-xei/2.png')" data-src="/api/placeholder/801/400"></div>
+                <div class="thumbnail" style="background-image: url('../assets/toyota-corolla-xei/3.png')" data-src="/api/placeholder/802/400"></div>
+                <div class="thumbnail" style="background-image: url('../assets/toyota-corolla-xei/4.png')" data-src="/api/placeholder/803/400"></div>
+            </div>
+        </div>
+
+        <!-- Car Info -->
+        <div class="car-info">
+            <h1 class="car-title">Toyota Corolla XEi</h1>
+            <p class="car-subtitle">2023 • 0 km • Automático • Flex</p>
+            <h2 class="car-price">R$ 145.000,00</h2>
+
+            <div class="car-actions">
+                <button id="message-button" class="car-btn btn-primary">Enviar mensagem</button>
+                <button id="date-btn" class="car-btn btn-secondary">Agendar Visita</button>
+                <button class="car-btn btn-outline" id="compartilhar"><i class="fa fa-share-alt" aria-hidden="true" style="margin: 0 0.5rem;"></i>Compartilhar</button>
+            </div>
+
+            <div class="car-specs">
+                <h3 class="specs-title">Especificações</h3>
+                <div class="specs-grid">
+                    <div class="spec-item">
+                        <span class="spec-label">Marca:</span>
+                        <span class="spec-value">Toyota</span>
+                    </div>
+                    <div class="spec-item">
+                        <span class="spec-label">Modelo:</span>
+                        <span class="spec-value">Corolla</span>
+                    </div>
+                    <div class="spec-item">
+                        <span class="spec-label">Ano:</span>
+                        <span class="spec-value">2023</span>
+                    </div>
+                    <div class="spec-item">
+                        <span class="spec-label">Cor:</span>
+                        <span class="spec-value">Prata</span>
+                    </div>
+                    <div class="spec-item">
+                        <span class="spec-label">Câmbio:</span>
+                        <span class="spec-value">Automático</span>
+                    </div>
+                    <div class="spec-item">
+                        <span class="spec-label">Combustível:</span>
+                        <span class="spec-value">Flex</span>
+                    </div>
+                    <div class="spec-item">
+                        <span class="spec-label">Portas:</span>
+                        <span class="spec-value">4</span>
+                    </div>
+                    <div class="spec-item">
+                        <span class="spec-label">Potência:</span>
+                        <span class="spec-value">177cv</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="car-description">
+                <h3 class="specs-title">Descrição</h3>
+                <p>O Toyota Corolla XEi 2023 é um sedã médio com ótimo acabamento, econômico e espaçoso. Equipado com motor flex 2.0 de 177cv, transmissão automática CVT, ar-condicionado digital, central multimídia com tela touchscreen de 8", Android Auto e Apple CarPlay, câmera de ré, controle de estabilidade, 7 airbags e muito mais.</p>
+                <p>Este veículo está em perfeito estado, 0km, pronto para retirada. Oferecemos as melhores condições de financiamento e aceitamos seu veículo usado como parte do pagamento.</p>
+            </div>
+        </div>
+
+        <!-- Tabs - Full Width -->
+        <div class="car-tabs">
+            <div class="tabs-header">
+                <button class="tab-btn active" data-tab="technical">Ficha Técnica</button>
+                <button class="tab-btn" data-tab="features">Características</button>
+                <button class="tab-btn" data-tab="warranty">Garantia</button>
+            </div>
+
+            <div class="tab-content active" id="technical">
+                <h3>Ficha Técnica</h3>
+                <table class="specs-table">
+                    <tr>
+                        <th>Motor</th>
+                        <td>2.0 VVT-i Flex</td>
+                    </tr>
+                    <tr>
+                        <th>Potência</th>
+                        <td>177cv @ 6600 rpm (etanol) / 169cv @ 6600 rpm (gasolina)</td>
+                    </tr>
+                    <tr>
+                        <th>Torque</th>
+                        <td>21,4 kgfm @ 4400 rpm (etanol) / 20,2 kgfm @ 4400 rpm (gasolina)</td>
+                    </tr>
+                    <tr>
+                        <th>Transmissão</th>
+                        <td>Automática CVT com 10 velocidades simuladas</td>
+                    </tr>
+                    <tr>
+                        <th>Direção</th>
+                        <td>Elétrica</td>
+                    </tr>
+                    <tr>
+                        <th>Suspensão dianteira</th>
+                        <td>Independente, tipo McPherson</td>
+                    </tr>
+                    <tr>
+                        <th>Suspensão traseira</th>
+                        <td>Multi-link</td>
+                    </tr>
+                    <tr>
+                        <th>Freios</th>
+                        <td>Discos ventilados na dianteira e sólidos na traseira com ABS</td>
+                    </tr>
+                    <tr>
+                        <th>Dimensões (C x L x A)</th>
+                        <td>4630mm x 1780mm x 1455mm</td>
+                    </tr>
+                    <tr>
+                        <th>Entre-eixos</th>
+                        <td>2700mm</td>
+                    </tr>
+                    <tr>
+                        <th>Peso</th>
+                        <td>1400 kg</td>
+                    </tr>
+                    <tr>
+                        <th>Porta-malas</th>
+                        <td>470 litros</td>
+                    </tr>
+                    <tr>
+                        <th>Tanque</th>
+                        <td>50 litros</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="tab-content" id="features">
+                <h3>Características e Equipamentos</h3>
+                <ul class="feature-list">
+                    <li>Central multimídia com tela touch de 8"</li>
+                    <li>Android Auto e Apple CarPlay</li>
+                    <li>Ar-condicionado digital dual zone</li>
+                    <li>Câmera de ré</li>
+                    <li>Controle de cruzeiro adaptativo</li>
+                    <li>Faróis em LED</li>
+                    <li>7 airbags (frontais, laterais, cortina e joelho)</li>
+                    <li>Sensor de estacionamento dianteiro e traseiro</li>
+                    <li>Bancos em couro</li>
+                    <li>Rodas de liga leve 17"</li>
+                    <li>Sistema de som premium com 6 alto-falantes</li>
+                    <li>Freio de estacionamento eletrônico</li>
+                    <li>Start/Stop automático</li>
+                    <li>Entrada USB</li>
+                    <li>Bluetooth</li>
+                </ul>
+            </div>
+
+            <div class="tab-content" id="warranty">
+                <h3>Garantia</h3>
+                <p>O Toyota Corolla XEi 2023 possui garantia de fábrica de 5 anos ou 100.000 km, o que ocorrer primeiro.</p>
+                <p>Além disso, oferecemos:</p>
+                <ul class="feature-list">
+                    <li>3 primeiras revisões gratuitas</li>
+                    <li>Assistência 24 horas durante todo o período de garantia</li>
+                    <li>Garantia estendida opcional por até 7 anos</li>
+                </ul>
+                <p>A garantia cobre defeitos de fabricação e montagem, excluindo itens de desgaste natural como pastilhas de freio, pneus, filtros, óleo, entre outros.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-col">
+                <h3><span>MMotors Veículos</span></h3>
+                <p>Sua concessionária de confiança há anos, oferecendo os melhores carros e condições do mercado. Venha nos conhecer e saia de carro novo!</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/people/MMotors-Ve%C3%ADculos/61556223940893/" class="social-icon"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <a href="https://www.instagram.com/mmotors.veiculos/" class="social-icon"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    <a href="#" class="social-icon"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h3>Links Rápidos</h3>
+                <ul class="footer-links">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="index.html#cars-container">Carros</a></li>
+                    <li><a href="#">Sobre Nós</a></li>
+                    <li><a href="#">Financiamento</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Contato</h3>
+                <p>Av. da Amizade, 1683<br>Vila Carlota, Sumaré - SP<br>CEP: 13175-490</p>
+                <p>(19) 99434-8998<br>Email: mmotors.veiculos@outlook.com</p>
+            </div>
+            <div class="footer-col">
+                <h3>Horário de Funcionamento</h3>
+                <p>Segunda - Sexta: 08:00 - 18:30<br>Sábado: 08:00 - 14:00<br>Domingo: fechado</p>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 M Motors Veículos. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="../ver-mais.js"></script>
+</body>
+</html>
