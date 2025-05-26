@@ -1,4 +1,4 @@
-const telefone = "5519994348998";
+const telefone = "5519987654321";
 
 const mensagem1 = "Olá! Gostaria de mais informações.";
 const mensagem2 = "Oi! Qual é a melhor data para agendarmos?";
